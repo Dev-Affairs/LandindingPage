@@ -1,0 +1,305 @@
+body{
+    /* background-color:red; */
+    user-select: none;
+}
+
+.nav-bar{
+    background-color: #06004e;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    position: absolute;
+    left: 8%;
+}
+
+.nav-logo img{
+    /* width: 150px; */
+    margin: 8px 0;
+    cursor: pointer;
+    width: inherit;
+}
+
+
+@media only screen and (max-width: 768px){
+    .tag-line-text{
+        font-size: 5vw;
+        /* display: none; */
+    }
+
+    .nav-logo{
+        width: 30vw;
+    }
+
+    .nav-items{
+        display: none;
+    }
+
+    .main-banner{
+        height: 200px;
+    }
+    
+    .tag-line-text{
+        top: 12%;
+        left: 8%;
+
+    }
+
+    .main-card-section{
+        display: grid;
+        grid-template-columns: auto;
+        /* gap: 20px; */
+        /* padding: 20px; */
+    }
+
+    .bg-blue{
+        background-color: #06004e;
+        color: white;
+    
+    
+    }
+    
+    .bg-orange{
+        background-color: #ff7608;
+        color: white;
+    
+    
+    }
+    
+    .bg-light-orange{
+        background-color: #ffd6b4;
+    }
+    
+    .bg-light-blue{
+        background-color: #c9dbf5;
+    }
+
+    .card{
+        border-radius: 0;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .tag-line-text{
+    font-size: 60px;
+        
+        /* display: none; */
+    }
+
+    .nav-logo{
+        width: 180px;
+    }
+
+    .nav-items{
+        display: flex;
+        margin: auto;
+        gap: 20px;
+        position: relative;
+        left: 10%;
+    }    
+    
+    
+    .nav-item{
+        color: white;
+        font-family: sans-serif;
+        opacity: .8;
+    }
+
+    .main-banner{
+        height: 700px;
+    }
+    
+
+    .tag-line-text{
+        top: 25%;
+        left: 8%;
+    }
+    
+
+    .main-body{
+        display: flex;
+        justify-content: space-around;
+    }
+    .main-body-item{
+        padding: 50px;
+        gap: 30px;
+        width: 50%;
+    }
+
+    .main-card-section{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 12px;
+        padding: 35px 0;
+        background: #f1f1f1;
+    }
+
+    .main-card-section .card{
+        padding: 10px 8%;
+    }
+    
+    .bg-blue:hover{
+        background-color: #06004e;
+        color: white;
+    
+    
+    }
+    
+    .bg-orange:hover{
+        background-color: #ff7608;
+        color: white;
+    
+    
+    }
+    
+    .bg-light-orange:hover{
+        background-color: #ffd6b4;
+    }
+    
+    .bg-light-blue:hover{
+        background-color: #c9dbf5;
+    }
+    
+    .card{
+        box-shadow: 5px 6px 6px -1px rgba(175, 175, 175, 0.39);
+    }
+
+    .card-border-left{
+        border-radius: 20px 0 0 20px;
+    
+    }
+    
+    .card-border-right{
+        border-radius: 0 20px 20px 0;
+    
+    }
+}
+
+.nav-item:hover{
+    cursor: pointer;
+    color: #ff7608!important;
+}
+
+.text-orange{
+    color: #ff7608!important;
+}
+
+
+.main-banner{
+    background-image: url(./assets/bg/bg_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tag-line-text{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: absolute;
+}
+
+.tag-line-text-orance{
+    color: #ff7608;
+}
+
+
+.tag-line-text-blue{
+    color: #0c6dff;
+}
+
+.main-body{
+    background: white;
+}
+
+.shadow-card{
+    box-shadow: 32px 32px 10px -3px #ff7608;
+    width: 85%;
+    margin: auto;
+    height: 300px;
+}
+
+#add-dev-img{
+    background-image: url(./assets/bg/dev_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.text-white{
+    color: white;
+}
+
+.card{
+    border: none;
+    transition: background-color .8s ease;
+    cursor: pointer;
+    /* border-radius: 0;
+     */
+}
+
+
+.copy-right-footer{
+    text-align: center;
+    background: #ff7608;
+    color: white;
+}
+
+.footer{
+    background-color: #06004e;
+
+}
+
+.footer-main{
+    padding: 0 8%;
+
+}
+
+.footer-logo-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.da-footer-logo{
+    margin: 8px 0;
+    cursor: pointer;
+    width: 125px;
+}
+
+.da-footer-logo img{
+    width: inherit;
+}
+
+.social-icons{
+    display: flex;
+    gap: 15px;
+    margin: auto 0;
+}
+
+.social-icons img{
+    width: 20px;
+}
+
+.social-icons a{
+    text-decoration: none;
+}
+
+.footer-line{
+    border-top: 3px solid white;
+    margin: 0;
+}
+
+.footer-separator{
+    padding: 0 8%;
+    /* background: #06004e; */
+}
+
+
+.footer-details{
+    padding: 25px 8%;
+    color: white;
+
+}
