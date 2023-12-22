@@ -4,7 +4,7 @@ body{
 }
 
 .nav-bar{
-    background-color: #06004e;
+    /* background-color: #11111a; */
     height: 55px;
     display: flex;
     justify-content: space-between;
@@ -55,7 +55,7 @@ body{
     }
 
     .bg-blue{
-        background-color: #06004e;
+        background-color: #11111a;
         color: white;
     
     
@@ -133,15 +133,15 @@ body{
         grid-template-columns: auto auto;
         gap: 12px;
         padding: 35px 0;
-        background: #f1f1f1;
+        /* background: #f1f1f1; */
     }
 
     .main-card-section .card{
         padding: 10px 8%;
     }
     
-    .bg-blue:hover{
-        background-color: #06004e;
+    /* .bg-blue:hover{
+        background-color: #11111a;
         color: white;
     
     
@@ -160,10 +160,10 @@ body{
     
     .bg-light-blue:hover{
         background-color: #c9dbf5;
-    }
+    } */
     
     .card{
-        box-shadow: 5px 6px 6px -1px rgba(175, 175, 175, 0.39);
+        /* box-shadow: 5px 6px 6px -1px rgba(175, 175, 175, 0.39); */
     }
 
     .card-border-left{
@@ -177,6 +177,10 @@ body{
     }
 }
 
+.main-card-section{
+    background: #11111a;
+}
+
 .nav-item:hover{
     cursor: pointer;
     color: #ff7608!important;
@@ -188,7 +192,8 @@ body{
 
 
 .main-banner{
-    background-image: url(./assets/bg/bg_main.jpg);
+    /* background-image: url(./assets/bg/bg_main.jpg); */
+    background-image: url(https://i.ibb.co/TtgJ7Hf/colorful-gradient-background-with-neon-led-light.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -238,18 +243,20 @@ body{
     cursor: pointer;
     /* border-radius: 0;
      */
+     background-color: #1A192F;
+     color: white;
 }
 
 
 .copy-right-footer{
     text-align: center;
-    background: #ff7608;
+    background: #181829;
     color: white;
 }
 
 .footer{
-    background-color: #06004e;
-
+    background-color: #11111a;
+    border-top: 2px solid;
 }
 
 .footer-main{
@@ -288,13 +295,13 @@ body{
 }
 
 .footer-line{
-    border-top: 3px solid white;
+    border-top: 2px solid white;
     margin: 0;
 }
 
 .footer-separator{
     padding: 0 8%;
-    /* background: #06004e; */
+    /* background: #11111a; */
 }
 
 
