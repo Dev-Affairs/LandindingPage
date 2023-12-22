@@ -1,6 +1,7 @@
 body{
     /* background-color:red; */
     user-select: none;
+    font-family: 'Inter'!important;
 }
 
 .nav-bar{
@@ -103,7 +104,8 @@ body{
     
     .nav-item{
         color: white;
-        font-family: sans-serif;
+        /* font-family: sans-serif; */
+        font-family: 'Inter';
         opacity: .8;
     }
 
@@ -182,8 +184,15 @@ body{
 }
 
 .nav-item:hover{
+    transition: all .3s linear;
+
+}
+
+.nav-item:hover{
     cursor: pointer;
-    color: #ff7608!important;
+    /* color: #ff7608!important; */
+    color: #0c6dff!important;
+    /* font-weight: 600; */
 }
 
 .text-orange{
@@ -200,7 +209,8 @@ body{
 
 .tag-line-text{
     color: white;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
+    font-family: 'Inter';
     font-weight: 600;
     position: absolute;
 }
