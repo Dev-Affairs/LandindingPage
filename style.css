@@ -121,7 +121,7 @@ body{
         margin: auto;
         gap: 20px;
         position: relative;
-        left: 10%;
+        /* left: 10%; */
     }    
     
     
@@ -235,6 +235,11 @@ body{
 }
 
 .first-section .card-text{
+    /* font-size: small;
+    color: #b3b3b3; */
+}
+
+.text-general{
     font-size: small;
     color: #b3b3b3;
 }
@@ -274,8 +279,8 @@ body{
 
 
 .second-section .card-text{
-    font-size: small;
-    color: #b3b3b3;
+    /* font-size: small;
+    color: #b3b3b3; */
 }
 
 
@@ -312,8 +317,8 @@ body{
     width: 70px;
     height: 70px;
     background: #383655;
-    border-radius: 12px;
-    padding: 5px;
+    border-radius: 18px;
+    padding: 9px;
 }
 
 .card-logo img{
@@ -382,8 +387,8 @@ body{
 }
 
 .hero-description{
-    font-size: small;
-    color: #b3b3b3;
+    /* font-size: small;
+    color: #b3b3b3; */
     font-weight: 500;
 
 }
@@ -449,6 +454,8 @@ body{
     text-align: center;
     background: #181829;
     color: white;
+    height: 45px;
+    padding: 10px;
 }
 
 .footer{
@@ -502,12 +509,19 @@ body{
 }
 
 
-.footer-details{
+.footer-content{
     padding: 25px var(--page-initial-padding);
     color: white;
-
+    
 }
 
+
+.footer-content .footer-content-wraper{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 40px;
+}
 
          
 .btn-grad {
@@ -537,4 +551,9 @@ body{
 
   .view-all-btn{
     margin: auto;
+  }
+
+  .footer-item{
+    gap: 6px;
+    display: inline-grid;
   }
