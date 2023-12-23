@@ -96,6 +96,10 @@ body{
     
     }
 
+    .first-section .first-section-container{
+        padding: 20px;
+    }
+
     .first-section .card-description-section{
         display: block;
     }
@@ -281,7 +285,7 @@ body{
         border-radius: 15px;
     }
 
-    .first-section .card{
+    .first-section .first-section-container{
         padding: 20px;
     
     }
@@ -337,7 +341,7 @@ body{
 }
 
 .single-card{
-    height: -webkit-fill-available;
+    height: inherit;
 }
 
 
