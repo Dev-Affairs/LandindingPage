@@ -269,9 +269,6 @@ body{
         height: 500px;
     }
 
-    .footer{
-        display: none;
-    }
 
     .footer-main{
         padding: 0 var(--page-initial-padding);
