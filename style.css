@@ -65,6 +65,7 @@ body{
 
     .main-hero{
         height: 200px;
+        /* display: none; */
     }
     
     .hero-content{
@@ -101,6 +102,60 @@ body{
     
     .bg-light-blue{
         background-color: #c9dbf5;
+    }
+
+    .first-section{
+        margin: 20px ;
+    
+    }
+
+    
+
+    .first-section .card-description-section{
+        display: block;
+    }
+    
+    .first-section .card-image-section{
+        display: block;
+
+    }
+
+    .first-section-logo-area .first-section-logo-container{
+        width: 100%;
+        display: flex;
+        gap: 30px;
+        padding: 0;
+    }
+
+    .first-section-logo-area{
+        display: grid;
+        margin-top: 35px;
+        gap: 20px;
+    }
+
+    .card-image-section img{
+        width: -webkit-fill-available;
+        margin: auto;
+        border-radius: 15px;
+    }
+
+    .second-section{
+        /* display: none; */
+        margin: 20px ;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+
+    }
+
+    .second-section .parent-box{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+
+    .second-section .single-card{
+        /* width: 40%; */
     }
 
 }
@@ -200,6 +255,84 @@ body{
         border-radius: 0 20px 20px 0;
     
     }
+
+
+    .first-section{
+        margin: 20px var(--page-initial-padding);
+    
+    }
+
+    .second-section{
+        display: flex;  
+        margin: 60px var(--page-initial-padding);
+        gap: 20px;
+        height: 500px;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .footer-main{
+        padding: 0 var(--page-initial-padding);
+    
+    }
+
+    .footer-content .footer-content-wraper{
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        padding: 40px;
+    }
+
+    .first-section .card-body{
+        display: flex;
+    }
+
+    .first-section .card-description-section{
+        width: 60%;
+    }
+    
+    .first-section .card-image-section{
+        width: 40%;
+    }
+
+    .first-section-logo-area{
+        display: flex;
+        margin-top: 35px;
+    }
+    
+    
+    .first-section-logo-area .first-section-logo-container{
+        width: 50%;
+        display: flex;
+        gap: 20px;
+        padding: 0;
+    }
+
+    .card-image-section img{
+        width: -webkit-fill-available;
+        /* width: 75%; */
+        margin: auto;
+        border-radius: 15px;
+    }
+
+    .first-section .card{
+        padding: 20px;
+    
+    }
+
+    .second-section .parent-box{
+        width: 60%;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+
+    .second-section .single-card{
+        width: 40%;
+    }
+    
 }
 
 .header-bigger{
@@ -221,18 +354,9 @@ body{
     overflow: hidden
 }
 
-.first-section{
-    margin: 20px var(--page-initial-padding);
 
-}
 
-.first-section .card-description-section{
-    width: 60%;
-}
 
-.first-section .card-image-section{
-    width: 40%;
-}
 
 .first-section .card-text{
     /* font-size: small;
@@ -244,52 +368,10 @@ body{
     color: #b3b3b3;
 }
 
-.first-section .card{
-    /* height: 30vh;
-    padding: 0 var(--page-initial-padding);
-    overflow: hidden; */
-    padding: 20px;
-
-}
-
-.first-section .card-body{
-    display: flex;
-}
 
 
-.first-section-logo-area{
-    display: flex;
-    margin-top: 35px;
-}
 
 
-.first-section-logo-area .container{
-    width: 50%;
-    display: flex;
-    gap: 20px;
-    padding: 0;
-}
-
-.second-section{
-    display: flex;  
-    margin: 60px var(--page-initial-padding);
-    gap: 20px;
-    height: 500px;
-}
-
-
-.second-section .card-text{
-    /* font-size: small;
-    color: #b3b3b3; */
-}
-
-
-.second-section .parent-box{
-    width: 60%;
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 20px;
-}
 
 .parent-box .card{
     padding: 20px;
@@ -300,9 +382,7 @@ body{
 }
 
 
-.second-section .single-card{
-    width: 40%;
-}
+
 
 .single-card{
     height: -webkit-fill-available;
@@ -326,17 +406,8 @@ body{
     
 }
 
-.card-image-section{
-    /* width: 50%; */
-    
-}
 
-.card-image-section img{
-    width: -webkit-fill-available;
-    width: 75%;
-    margin: auto;
-    border-radius: 15px;
-}
+
 
 .card-lower-blur{
     height: 110px;
@@ -458,15 +529,9 @@ body{
     padding: 10px;
 }
 
-.footer{
-    background-color: #11111a;
-    border-top: 2px solid;
-}
 
-.footer-main{
-    padding: 0 var(--page-initial-padding);
 
-}
+
 
 .footer-logo-area{
     display: flex;
@@ -516,12 +581,6 @@ body{
 }
 
 
-.footer-content .footer-content-wraper{
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    padding: 40px;
-}
 
          
 .btn-grad {
