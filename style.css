@@ -473,6 +473,10 @@ body {
   border-radius: 20px;
 }
 
+.card-shadow-grad{
+    box-shadow: 2px 2px 30px 7px #2a2851;
+}
+
 .card-hover {
   transition: all 0.5s ease;
 }
@@ -540,13 +544,18 @@ body {
   color: white;
 }
 
+.btn-shadow-grad{
+    box-shadow: 4px 4px 33px 4px #351261;
+}
+
 .btn-grad {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to left,
     #ff7608 0%,
     #5724c1 51%,
     #ff7608 100%
-  );
+  ); */
+  background-image: linear-gradient( to left, #2c169b 0%, #3922b9 51%, #632d1c 100% );
   font-size: small;
   padding: 12px 35px;
   text-align: center;
