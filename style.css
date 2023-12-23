@@ -53,7 +53,7 @@ body {
   }
 
   .hero-content .tag-line {
-    font-size: 5vw;
+    font-size: 7vw;
   }
 
   .nav-hidden {
@@ -107,7 +107,7 @@ body {
   }
 
   .hero-content {
-    top: 12%;
+    top: 15%;
     margin: 0 var(--page-initial-padding);
   }
 
