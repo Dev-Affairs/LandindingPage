@@ -15,7 +15,7 @@
                 <!-- Dev Affairs -->
                 <img src="./assets/logos/da_logo_header.png" alt="" srcset="">
             </div>
-            <div class="nav-items">
+            <div class="nav-items nav-hidden" id="nav-items">
                 <!-- <div class="nav-item">
                     <span>
                         HOME
@@ -47,9 +47,15 @@
                     </span>
                 </div>
             </div>
-            <!-- <div>
-                <button onclick="console.log('this', this)">text</button>
-            </div> -->
+            <div>
+                <!-- <button >text</button> -->
+                <button class="hamburger hamburger--3dx" type="button" onclick="onClickNavManuToggle()" id="nav-menu-btn">
+                    <a><div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                    </div>
+                    </a>
+                    </button>
+            </div>
         </div>
         <div class="hero-content">
             <div class="tag-line">
@@ -61,7 +67,7 @@
                 <span class="tag-line-text-orance">Internet</span>
             </div>
             <div class="hero-description text-general">
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'.</p>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here' .</p>
             </div>
             <div class="mt-2">
                 <a href="#" class="btn-grad">
@@ -78,12 +84,12 @@
 
     <div class="feed-section">
         <div class="first-section">
-            <div class="card first-section-container">
+            <div class="card card-hover first-section-container">
                 <div class="card-body">
                     <div class="card-description-section">
                         <h6 class="card-title text-orange header-big">What We Do</h6>
                         <h5 class="card-subtitle mb-2 header-bigger">The Easiest Way Manage Personal website and SEO</h5>
-                        <p class="card-text text-general">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here' It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'..</p>
+                        <p class="card-text text-general">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here' It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum neque blanditiis a reprehenderit perspiciatis aliquam pariatur! Assumenda sint a, nam, delectus, cupiditate voluptatem similique molestias perferendis saepe debitis vel et quos expedita. Molestias debitis inventore molestiae. Soluta repudiandae sit iste eaque quod voluptatum minus ea rem excepturi quo, pariatur praesentium!</p>
 
                         <div class="first-section-logo-area">
                             <div class="first-section-logo-container">
@@ -119,7 +125,7 @@
 
         <div class="second-section">
             <div class="parent-box">
-                <div class="card">
+                <div class="card card-hover">
                     <div class="card-body">
                         <div class="card-logo">
                             <img src="./assets/logos/card-logo/web-design.png" alt="" srcset="">
@@ -130,7 +136,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card card-hover">
                     <div class="card-body">
                          <div class="card-logo">
                             <img src="./assets/logos/card-logo/app-design.png" alt="" srcset="">
@@ -141,7 +147,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card card-hover">
                     <div class="card-body">
                          <div class="card-logo">
                             <img src="./assets/logos/card-logo/devlopment.png" alt="" srcset="">
@@ -152,7 +158,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card card-hover">
                     <div class="card-body">
                          <div class="card-logo">
                             <img src="./assets/logos/card-logo/seo.png" alt="" srcset="">
@@ -165,7 +171,7 @@
                 </div>
             </div>
             <div class="single-card">
-                <div class="card">
+                <div class="card card-hover">
                     <div class="card-body">
                         <h6 class="card-title text-orange header-big">Service</h6>
                         <h5 class="card-subtitle mb-2 mt-3 header-bigger">Explore What We Offer</h5>
@@ -255,5 +261,6 @@ as opposed to using 'Content here, content here'.
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
