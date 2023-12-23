@@ -30,7 +30,7 @@ body{
 
 
 @media only screen and (max-width: 768px){
-    .tag-line-text .tag-line{
+    .hero-content .tag-line{
         font-size: 5vw;
         /* display: none; */
     }
@@ -63,11 +63,11 @@ body{
         font-weight: 600;
     }
 
-    .main-banner{
+    .main-hero{
         height: 200px;
     }
     
-    .tag-line-text{
+    .hero-content{
         top: 12%;
         margin: 0 var(--page-initial-padding);
     }
@@ -103,13 +103,10 @@ body{
         background-color: #c9dbf5;
     }
 
-    .card{
-        border-radius: 0;
-    }
 }
 
 @media only screen and (min-width: 768px){
-    .tag-line-text .tag-line{
+    .hero-content .tag-line{
         font-size: 60px;
         
         /* display: none; */
@@ -134,12 +131,12 @@ body{
         opacity: .8;
     }
 
-    .main-banner{
+    .main-hero{
         height: 700px;
     }
     
 
-    .tag-line-text{
+    .hero-content{
         top: 25%;
         /* left: var(--page-initial-padding); */
         margin: 0 var(--page-initial-padding);
@@ -205,6 +202,7 @@ body{
     }
 }
 
+
 .feed-section{
     margin: 60px 0;
 }
@@ -256,6 +254,7 @@ body{
     width: 50%;
     display: flex;
     gap: 20px;
+    padding: 0;
 }
 
 .second-section{
@@ -357,26 +356,28 @@ body{
 }
 
 
-.main-banner{
+.main-hero{
     /* background-image: url(./assets/bg/bg_main.jpg); */
     background-image: url(https://i.ibb.co/TtgJ7Hf/colorful-gradient-background-with-neon-led-light.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.tag-line-text{
+.hero-content{
     color: white;
     position: absolute;
 }
 
-.tag-line-text .tag-line{
+.hero-content .tag-line{
     font-family: sans-serif;
     font-weight: 600;
 }
 
-.banner-description{
+.hero-description{
     font-size: small;
     color: #b3b3b3;
+    font-weight: 500;
+
 }
 
 .tag-line-text-orance{
@@ -413,13 +414,20 @@ body{
 
 .card{
     border: none;
-    transition: background-color .8s ease;
+    transition: all .5s ease;
     cursor: pointer;
     /* border-radius: 0;
      */
      background-color: #1A192F;
      color: white;
      border-radius: 20px;
+    /* transition: 0.5s; */
+
+}
+
+.card:hover{
+    transform: scale(1.02);
+
 }
 
 .parent-card{
@@ -491,3 +499,34 @@ body{
     color: white;
 
 }
+
+
+         
+.btn-grad {
+    background-image: linear-gradient(to left, #ff7608 0%,  #5724c1  51%,  #ff7608  100%);
+    /* margin: 10px; */
+    font-size: small;
+    padding: 12px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    /* box-shadow: 0 0 20px #eee; */
+    border-radius: 60px;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    transform: scale(1.1);
+  }
+ 
+
+  .view-all-btn{
+    margin: auto;
+  }
