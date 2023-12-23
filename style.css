@@ -1,12 +1,10 @@
 body{
-    /* background-color:red; */
     user-select: none;
     background: #11111a;
 
 }
 
 .nav-bar{
-    /* background-color: #11111a; */
     height: 55px;
     display: flex;
     justify-content: space-between;
@@ -18,7 +16,6 @@ body{
 }
 
 .nav-logo img{
-    /* width: 150px; */
     margin: 8px 0;
     cursor: pointer;
     width: inherit;
@@ -32,13 +29,11 @@ body{
 @media only screen and (max-width: 768px){
     .hero-content .tag-line{
         font-size: 5vw;
-        /* display: none; */
     }
 
-    .nav-bar{
+    /* .nav-bar{
         
-    }
-    
+    } */
 
     .nav-logo{
         width: 30vw;
@@ -56,7 +51,6 @@ body{
     }
 
     .nav-item{
-        /* display: none; */
        color: white;
        text-align: center;
         padding: 20px;
@@ -65,7 +59,6 @@ body{
 
     .main-hero{
         height: 500px;
-        /* display: none; */
     }
     
     .hero-content{
@@ -76,23 +69,17 @@ body{
     .main-card-section{
         display: grid;
         grid-template-columns: auto;
-        /* gap: 20px; */
-        /* padding: 20px; */
     }
-
-   
 
     .bg-blue{
         background-color: #11111a;
         color: white;
-    
     
     }
     
     .bg-orange{
         background-color: #ff7608;
         color: white;
-    
     
     }
     
@@ -108,8 +95,6 @@ body{
         margin: 20px ;
     
     }
-
-    
 
     .first-section .card-description-section{
         display: block;
@@ -140,7 +125,6 @@ body{
     }
 
     .second-section{
-        /* display: none; */
         margin: 20px ;
         display: grid;
         grid-template-columns: auto;
@@ -157,14 +141,21 @@ body{
     .second-section .single-card{
         /* width: 40%; */
     }
+    
+    .single-card .card{
+        padding: 20px;
+        height: inherit;
+    }
+    
+    .footer-content-item{
+        margin: 30px 0;
+    }
 
 }
 
 @media only screen and (min-width: 768px){
     .hero-content .tag-line{
         font-size: 60px;
-        
-        /* display: none; */
     }
 
     .nav-logo{
@@ -193,7 +184,6 @@ body{
 
     .hero-content{
         top: 25%;
-        /* left: var(--page-initial-padding); */
         margin: 0 var(--page-initial-padding);
     }
     
@@ -213,38 +203,15 @@ body{
         grid-template-columns: auto auto;
         gap: 12px;
         padding: 35px 0;
-        /* background: #f1f1f1; */
     }
 
     .main-card-section .card{
         padding: 10px var(--page-initial-padding);
     }
     
-    /* .bg-blue:hover{
-        background-color: #11111a;
-        color: white;
-    
-    
-    }
-    
-    .bg-orange:hover{
-        background-color: #ff7608;
-        color: white;
-    
-    
-    }
-    
-    .bg-light-orange:hover{
-        background-color: #ffd6b4;
-    }
-    
-    .bg-light-blue:hover{
-        background-color: #c9dbf5;
+    /* .card{
+        box-shadow: 5px 6px 6px -1px rgba(175, 175, 175, 0.39);
     } */
-    
-    .card{
-        /* box-shadow: 5px 6px 6px -1px rgba(175, 175, 175, 0.39); */
-    }
 
     .card-border-left{
         border-radius: 20px 0 0 20px;
@@ -266,7 +233,7 @@ body{
         display: flex;  
         margin: 60px var(--page-initial-padding);
         gap: 20px;
-        height: 500px;
+        /* height: 500px; */
     }
 
 
@@ -329,6 +296,11 @@ body{
     .second-section .single-card{
         width: 40%;
     }
+
+    .single-card .card{
+        padding: 60px 40px;
+        height: inherit;
+    }
     
 }
 
@@ -351,24 +323,10 @@ body{
     overflow: hidden
 }
 
-
-
-
-
-.first-section .card-text{
-    /* font-size: small;
-    color: #b3b3b3; */
-}
-
 .text-general{
     font-size: small;
     color: #b3b3b3;
 }
-
-
-
-
-
 
 .parent-box .card{
     padding: 20px;
@@ -378,17 +336,10 @@ body{
     margin-top: 20px;
 }
 
-
-
-
 .single-card{
     height: -webkit-fill-available;
 }
 
-.single-card .card{
-    padding: 60px 40px;
-    height: inherit;
-}
 
 .card-logo{
     width: 70px;
@@ -403,9 +354,6 @@ body{
     
 }
 
-
-
-
 .card-lower-blur{
     height: 110px;
     width: 100%;
@@ -416,10 +364,6 @@ body{
 }
 
 
-.main-card-section{
-    /* background: #11111a; */
-}
-
 .nav-item:hover{
     transition: all .3s linear;
 
@@ -427,15 +371,12 @@ body{
 
 .nav-item:hover{
     cursor: pointer;
-    /* color: #ff7608!important; */
     color: #0c6dff!important;
-    /* font-weight: 600; */
 }
 
 .text-orange{
     color: #ff7608!important;
 }
-
 
 .main-hero{
     /* background-image: url(./assets/bg/bg_main.jpg); */
@@ -455,8 +396,6 @@ body{
 }
 
 .hero-description{
-    /* font-size: small;
-    color: #b3b3b3; */
     font-weight: 500;
 
 }
@@ -487,8 +426,6 @@ body{
     background-size: cover;
 }
 
-
-
 .text-white{
     color: white;
 }
@@ -497,12 +434,9 @@ body{
     border: none;
     transition: all .5s ease;
     cursor: pointer;
-    /* border-radius: 0;
-     */
-     background-color: #1A192F;
-     color: white;
-     border-radius: 20px;
-    /* transition: 0.5s; */
+    background-color: #1A192F;
+    color: white;
+    border-radius: 20px;
 
 }
 
@@ -526,13 +460,15 @@ body{
     padding: 10px;
 }
 
-
-
-
+.footer{
+    border-top: 2px solid #4A4866
+}
 
 .footer-logo-area{
     display: flex;
     justify-content: space-between;
+    padding: 20px;
+
 }
 
 
@@ -561,13 +497,13 @@ body{
 }
 
 .footer-line{
-    border-top: 2px solid white;
+    border-top: 2px solid #908eaf;
     margin: 0;
 }
 
 .footer-separator{
     padding: 0 var(--page-initial-padding);
-    /* background: #11111a; */
+    /* background: #4A4866; */
 }
 
 
@@ -576,13 +512,9 @@ body{
     color: white;
     
 }
-
-
-
          
 .btn-grad {
     background-image: linear-gradient(to left, #ff7608 0%,  #5724c1  51%,  #ff7608  100%);
-    /* margin: 10px; */
     font-size: small;
     padding: 12px 35px;
     text-align: center;
@@ -590,7 +522,6 @@ body{
     transition: 0.5s;
     background-size: 200% auto;
     color: white;            
-    /* box-shadow: 0 0 20px #eee; */
     border-radius: 60px;
     text-decoration: none;
     display: block;
@@ -598,7 +529,7 @@ body{
   }
 
   .btn-grad:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center;
     color: #fff;
     text-decoration: none;
     transform: scale(1.1);
@@ -613,3 +544,4 @@ body{
     gap: 6px;
     display: inline-grid;
   }
+  
