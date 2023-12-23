@@ -10,12 +10,13 @@ body {
 }
 
 .nav-logo {
-  position: absolute;
-  left: var(--page-initial-padding);
+  /* position: absolute;
+  left: var(--page-initial-padding); */
+  margin: auto;
 }
 
 .nav-logo img {
-  margin: 8px 0;
+  /* margin: 8px 0; */
   cursor: pointer;
   width: inherit;
 }
@@ -58,7 +59,7 @@ body {
   }
 
   .nav-logo {
-    width: 30vw;
+    width: 40vw;
     /* display: none; */
   }
 
