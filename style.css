@@ -148,7 +148,7 @@ body{
     
     .single-card .card{
         padding: 20px;
-        height: inherit;
+        height: 100%;
     }
     
     .footer-content-item{
@@ -303,7 +303,7 @@ body{
 
     .single-card .card{
         padding: 60px 40px;
-        height: inherit;
+        height: 100%;
     }
     
 }
