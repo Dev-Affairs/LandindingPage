@@ -202,6 +202,14 @@ body{
     }
 }
 
+.header-bigger{
+    font-size: 25px;
+}
+
+.header-big{
+    font-size: 15px;
+}
+
 
 .feed-section{
     margin: 60px 0;
@@ -301,8 +309,8 @@ body{
 }
 
 .card-logo{
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     background: #383655;
     border-radius: 12px;
     padding: 5px;
