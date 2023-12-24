@@ -102,13 +102,14 @@ body {
     font-weight: 600;
   }
 
-  .main-hero {
+  /* .main-hero {
     height: 500px;
-  }
+  } */
 
   .hero-content {
-    top: 15%;
-    margin: 0 var(--page-initial-padding);
+    /* top: 15%;
+    margin: 0 var(--page-initial-padding); */
+    margin: 10% var(--page-initial-padding);
   }
 
   .main-card-section {
@@ -231,13 +232,15 @@ body {
     opacity: 0.8;
   }
 
-  .main-hero {
+  /* .main-hero {
     height: 700px;
-  }
+  } */
 
   .hero-content {
-    top: 25%;
-    margin: 0 var(--page-initial-padding);
+    /* top: 25%;
+    margin: 0 var(--page-initial-padding); */
+    margin: 10% var(--page-initial-padding);
+
   }
 
   .main-body {
@@ -423,7 +426,7 @@ body {
 
 .hero-content {
   color: white;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .hero-content .tag-line {
