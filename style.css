@@ -89,8 +89,10 @@ body {
     display: none;
     position: absolute;
     width: -webkit-fill-available;
+    width: -moz-available; 
     background: rgb(0, 0, 0, 0.9);
     height: -webkit-fill-available;
+    height: -moz-available; 
     z-index: 9;
     padding: 100px 50px;
   }
@@ -165,7 +167,7 @@ body {
   }
 
   .card-image-section img {
-    width: -webkit-fill-available;
+    width: 100%; 
     margin: auto;
     border-radius: 15px;
   }
@@ -206,7 +208,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   #nav-menu-btn {
     display: none;
   }
@@ -323,7 +325,7 @@ body {
   }
 
   .card-image-section img {
-    width: -webkit-fill-available;
+    width: 100%;
     /* width: 75%; */
     margin: auto;
     border-radius: 15px;
@@ -353,6 +355,169 @@ body {
     transform: scale(1.02);
   }
 }
+
+@media screen and (min-device-width: 768px) 
+    and (max-device-width: 1024px) {
+      #nav-menu-btn {
+        display: block;
+      }
+    
+      .hero-content .tag-line {
+        font-size: 7vw;
+      }
+    
+      .nav-hidden {
+        margin: 0;
+        height: 100%;
+        overflow: hidden;
+      }
+    
+      .nav-hidden .nav-items {
+        /* display: block; */
+        display: block;
+      }
+    
+      .nav-hidden .nav-close-btn {
+        /* display: block; */
+        display: block;
+      }
+    
+      .hamburger {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 99;
+        display: none;
+      }
+    
+      .nav-logo {
+        width: 30vw;
+        /* display: none; */
+      }
+    
+      .nav-items {
+        display: none;
+        position: absolute;
+        width: -webkit-fill-available;
+        width: -moz-available; 
+        background: rgb(0, 0, 0, 0.9);
+        height: -webkit-fill-available;
+        height: -moz-available; 
+        height: -moz-available;
+        z-index: 9;
+        padding: 100px 50px;
+      }
+    
+      .nav-item {
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-weight: 600;
+      }
+    
+      /* .main-hero {
+        height: 500px;
+      } */
+    
+      .hero-content {
+        /* top: 15%;
+        margin: 0 var(--page-initial-padding); */
+        margin: 10% var(--page-initial-padding);
+      }
+    
+      .main-card-section {
+        display: grid;
+        grid-template-columns: auto;
+      }
+    
+      .bg-blue {
+        background-color: #11111a;
+        color: white;
+      }
+    
+      .bg-orange {
+        background-color: #ff7608;
+        color: white;
+      }
+    
+      .bg-light-orange {
+        background-color: #ffd6b4;
+      }
+    
+      .bg-light-blue {
+        background-color: #c9dbf5;
+      }
+    
+      .first-section {
+        margin: 20px;
+      }
+    
+      .first-section .first-section-container {
+        padding: 20px;
+      }
+    
+      .first-section .card-description-section {
+        display: block;
+      }
+    
+      .first-section .card-image-section {
+        display: block;
+      }
+    
+      .first-section-logo-area .first-section-logo-container {
+        width: 100%;
+        display: flex;
+        gap: 30px;
+        padding: 0;
+      }
+    
+      .first-section-logo-area {
+        display: flex;
+        margin-top: 35px;
+        gap: 20px;
+      }
+    
+      .card-image-section img {
+        width: 100%;
+        margin: auto;
+        border-radius: 15px;
+      }
+    
+      .card-image-section .card-body {
+        padding: 0;
+        margin: 20px 0 0 0;
+      }
+    
+      .second-section {
+        margin: 20px;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+      }
+    
+      .second-section .parent-box {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+      }
+    
+      .second-section .single-card {
+        /* width: 40%; */
+      }
+    
+      .single-card .card {
+        padding: 20px;
+        height: 100%;
+      }
+    
+      .footer-content-item {
+        margin: 30px 0;
+      }
+    
+      .footer-contact-us {
+        margin: 20px 0 55px 0;
+      }
+    }
 
 .header-bigger {
   font-size: 25px;
@@ -393,6 +558,8 @@ body {
 
 .card-logo img {
   width: -webkit-fill-available;
+  width: -moz-available; 
+
 }
 
 .card-lower-blur {
