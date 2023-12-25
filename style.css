@@ -749,13 +749,14 @@ body {
   text-decoration: none;
   display: block;
   width: fit-content;
+  border: 0;
 }
 
 .btn-grad:hover {
   background-position: right center;
   color: #fff;
   text-decoration: none;
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
 }
 
 .view-all-btn {
@@ -883,4 +884,17 @@ body {
 }
 .hamburger--3dx-r.is-active .hamburger-inner::after {
   transform: translate3d(0, -10px, 0) rotate(-45deg);
+}
+
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
 }
