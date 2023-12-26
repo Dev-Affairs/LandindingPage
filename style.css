@@ -664,6 +664,42 @@ body {
   .email-content{
     height: 165px;
   }
+
+  /* .contact-info-header{
+
+  } */
+  
+  .contact-info-details{
+    display: grid;
+    gap: 20px;
+  }
+
+  .contact-info-details .card-text-content{
+    margin: auto;
+    width: inherit;
+  }
+
+  .contact-info-details-item{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+  }
+  
+  .contact-info-social{
+    margin: 50px 0;
+    
+  }
+
+  .contact-info-social-links{
+    display: flex;
+    gap: 15px;
+    margin: 30px 0;
+  }
+
+  .contact-info-social-links img{
+    width: 20px;
+  }
   /* Contact Page Desktop Ends */
 
 }
@@ -706,8 +742,8 @@ body {
 }
 
 .card-logo {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   background: #383655;
   border-radius: 18px;
   padding: 9px;
