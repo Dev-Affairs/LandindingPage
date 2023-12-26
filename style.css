@@ -107,6 +107,8 @@ body {
     padding: 20px;
     font-weight: 600;
     text-decoration: none;
+    width: 100%;
+    display: block;
   }
 
   /* .main-hero {
@@ -296,6 +298,8 @@ body {
         padding: 20px;
         font-weight: 600;
         text-decoration: none;
+        width: 100%;
+        display: block;
       }
     
       /* .main-hero {
