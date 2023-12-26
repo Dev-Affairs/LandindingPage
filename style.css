@@ -106,6 +106,7 @@ body {
     text-align: center;
     padding: 20px;
     font-weight: 600;
+    text-decoration: none;
   }
 
   /* .main-hero {
@@ -227,6 +228,11 @@ body {
     transform: translateY(0);
     opacity: 1;
   }
+
+  .text-general {
+    font-size: small;
+    color: #b3b3b3;
+  }
 }
 
 @media only screen and (min-width: 768px) 
@@ -289,6 +295,7 @@ body {
         text-align: center;
         padding: 20px;
         font-weight: 600;
+        text-decoration: none;
       }
     
       /* .main-hero {
@@ -410,6 +417,12 @@ body {
         transform: translateY(0);
         opacity: 1;
       }
+
+      .text-general {
+        /* font-size: small; */
+        font-size: 15px;
+        color: #b3b3b3;
+      }
     }
 
 @media only screen and (min-width: 1024px) {
@@ -420,7 +433,8 @@ body {
     display: none;
   }
   .hero-content .tag-line {
-    font-size: 60px;
+    /* font-size: 60px; */
+    font-size: 70px;
   }
 
   .nav-logo {
@@ -440,6 +454,7 @@ body {
     font-family: sans-serif;
     opacity: 0.8;
     font-weight: 600;
+    text-decoration: none;
   }
 
   /* .main-hero {
@@ -584,8 +599,83 @@ body {
     transform: translateY(0);
     opacity: 1;
   }
+
+  .text-general {
+    /* font-size: small; */
+    font-size: 17px;
+    color: #b3b3b3;
+  }
+
+  .hero-header{
+    font-size: 50px;
+  }
+  /* Contact Page Desktop Starts */
+  .contact-first-section{
+    margin: 20px var(--page-initial-padding);
+  }
+  .contact-first-section .card-body{
+    display: flex;
+
+  }
+
+  .contact-first-section .card-body {
+    display: flex;
+  }
+
+  .contact-first-section .card-contact-form {
+    width: 60%;
+    padding: 40px;
+  }
+
+  .contact-first-section .card-contact-info {
+    width: 40%;
+  }
+
+  .contact-first-section-logo-area {
+    display: flex;
+    margin-top: 35px;
+  }
+
+  .form-input{
+    padding: 12px;
+  }
+  
+  
+  .form-input label{
+    display: block!important;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+  }
+
+  .form-input input,textarea{
+    width: 100%;
+    border: 1px solid #4A4866;
+    background: transparent;
+    border-radius: 13px;
+    outline: none;
+    color: #b3b3b3;
+    padding: 10px 20px;
+  }
+
+  .email-content{
+    height: 165px;
+  }
+  /* Contact Page Desktop Ends */
+
 }
 
+.header-nav{
+
+}
+
+.header-nav a{
+  text-decoration: none;
+  color: #0c6dff;
+}
+
+.active-nav-item{
+  color: #ff7608 !important;
+}
 
 .header-bigger {
   font-size: 25px;
@@ -597,11 +687,6 @@ body {
 
 .feed-section {
   margin: 60px 0;
-}
-
-.text-general {
-  font-size: small;
-  color: #b3b3b3;
 }
 
 .parent-box .card {

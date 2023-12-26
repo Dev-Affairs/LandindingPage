@@ -46,3 +46,16 @@ function reveal() {
   function onExploreClick(){
     document.getElementById("feed-section").scrollIntoView({ behavior: "smooth", inline: "nearest" });
   }
+
+  function takeToMailClientOnClick(){
+    let firstname = document.getElementById("firstname").value;
+    let lastname = document.getElementById("lastname").value;
+    let email = document.getElementById("email").value;
+    let emailSubject = document.getElementById("email-subject").value;
+    let emailContent = document.getElementById("email-content").value;
+
+    if(emailSubject && emailContent){
+      var emailLinkStr = `mailto:business@devaffairs.com?subject=${emailSubject}&body=${emailContent}`
+      window.location = emailLinkStr;
+    }
+  }
