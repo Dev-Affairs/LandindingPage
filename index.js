@@ -54,6 +54,13 @@ function reveal() {
     let emailSubject = document.getElementById("email-subject").value;
     let emailContent = document.getElementById("email-content").value;
 
+
+    console.log("firstname", firstname)
+    console.log("lastname", lastname)
+    console.log("email", email)
+    console.log("emailSubject", emailSubject)
+    console.log("emailContent", emailContent)
+    
     if(emailSubject && emailContent){
       var emailLinkStr = `mailto:business@devaffairs.com?subject=${emailSubject}&body=${emailContent}`
       window.location = emailLinkStr;
